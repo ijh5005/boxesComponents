@@ -1,0 +1,48 @@
+body {
+  height: 100vh;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gameboard {
+  height: 40em;
+  width: 40em;
+  background-color: #222;
+}
+
+.gridBox {
+  background-color: #EEE;
+  height: 12.5%;
+  width: 12.5%;
+}
+
+.top, .bottom {
+  height: 20%;
+  left: 20%;
+  position: relative;
+  width: 60%;
+}
+
+.right, .left {
+  height: 60%;
+  position: relative;
+  width: 20%;
+}
+
+.top, .right, .bottom, .left {
+  background-color: #DDD;
+  margin: 0;
+}
+
+.right {
+  left: 80%;
+}
+
+.left {
+  top: -80%;
+}
